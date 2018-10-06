@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+      background: #f7f7f7;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+.signup__container {
+  margin: 0px 200px;
+  padding: 40px;
+  background: white;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  /*margin-right: auto;*/
+  /*margin-left: auto;*/
+  transform: translateY(-50%);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: remy(800px);
+  height: remy(480px);
+  border-radius: remy(3px);
+  box-shadow: 0px remy(3px) remy(7px) rgba(0,0,0,.25);
+}
+.signup__thumbnail {
+    position: relative;
+    opacity: 0.6;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCdUhxCgJSaYUtpe9U45fjrg7l8mAP3Aj9MxctTxOiES6I5FMk);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.signup__form {
+        padding: 35px;
+}
+.container__child {
+  position: relative;
+    width: 50%;
+    height: 243px;
+    color: #fff;
+}
+.signup__form input {
+        width: 90%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    margin-bottom: 25px;
+}
+.inline_block, .inline_block * {display: inline-block;}
+.submit_btn{    padding: 8px 16px;background-color: chocolate;color: white;border: none;font-weight: 600; width:100%;}
+.m-b-5 {margin-bottom: 15px;}
+.btn_pos {    position: absolute;bottom: 35px;width: 82%;}
+.v_align {display: inline-block; vertical-align: middle;}
+h3.v_align {margin-left: 20px;}
+.dash_container {margin: 40px 200px 40px 200px;background: linear-gradient(to left, #f9f9fa 0%,#f2f3f4 50%,#ebedee 100%); padding: 35px;}
+.m-b-20{margin-bottom:20px;}
+.bg_blue {    background: #5a8bb0;}
+span.v_align span:first-child {display: block;}
+span.v_align {margin-left: 30px;}
+.image {    height: 120px;width: 120px;border-radius: 50%;}
+.flex {display: flex;}
+.flex input {margin: 0px; border:none;}
+.w_33 {width: 33px;}
+.h_100 {height: 100%;}
+.h_100 span {    font-size: 16px;line-height: 25px}
+.f-16 {font-size: 16px;}
+.flex.f-16 {margin-bottom:8px;}
+.heading div {margin: 12px 0px;}
