@@ -11,8 +11,6 @@ var dotenv = require('dotenv').config();
 var _ = require('lodash');
 var path = require('path');
 var multer = require('multer');
-var AvatarStorage = require('./helpers/AvatarStorage');
-
 
 
 mongoose.connect(config.DB, { useNewUrlParser: true }).then(
