@@ -28,7 +28,7 @@ app.use(bodyParser.json());
 app.use('/api/users', users);
 
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname+'/client/build/index.html'));
+  res.sendFile(path.join(__dirname+'/app_client/build/index.html'));
 });
 
 PORT = process.env.PORT || 5000;
