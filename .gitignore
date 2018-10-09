@@ -1,0 +1,5 @@
+uploads/
+node_modules/
+package-lock.json
+app_client/node_modules/
+app_client/package-lock.json
